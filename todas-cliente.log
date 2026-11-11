@@ -1,8 +1,0 @@
- Container taller2-amqp-rabbitmq-1 Running 
- Container taller2-amqp-rabbitmq-1 Waiting 
- Container taller2-amqp-rabbitmq-1 Healthy 
- Container taller2-amqp-cliente-run-36b36ae6bf84 Creating 
- Container taller2-amqp-cliente-run-36b36ae6bf84 Created 
-{"prueba": "P01", "fecha_utc": "2026-11-07T01:06:49.132403+00:00", "pika": "1.3.2", "resultado": "OK", "detalle": {"publicados": ["Hola desde Brandon y Nicolas", "Segundo mensaje AMQP", "Tercer mensaje AMQP"], "recibidos": ["Hola desde Brandon y Nicolas", "Segundo mensaje AMQP", "Tercer mensaje AMQP"], "cola_final": 0, "operaciones": "Queue.Declare, Confirm.Select, Basic.Publish, Basic.Get, Basic.Ack"}}
-{"prueba": "P02", "fecha_utc": "2026-11-07T01:06:49.147688+00:00", "pika": "1.3.2", "resultado": "OK", "detalle": {"mensaje": "Mensaje para reentrega", "primera_redelivered": false, "segunda_redelivered": true, "cola_final": 0, "operaciones": "Basic.Nack(requeue=True), Basic.GetOk(redelivered=True), Basic.Ack"}}
-{"prueba": "P03", "fecha_utc": "2026-11-07T01:06:49.158182+00:00", "pika": "1.3.2", "resultado": "OK", "detalle": {"codigo": 404, "respuesta": "NOT_FOUND - no queue 'amq.gen-oToEHD6PT8-fCFiqAswRFA' in vhost '/'", "conexion_sigue_abierta": true, "operaciones": "Queue.Declare(passive=True), Channel.Close(404), Channel.CloseOk"}}
