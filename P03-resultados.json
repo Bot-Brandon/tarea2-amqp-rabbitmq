@@ -1,0 +1,14 @@
+[
+  {
+    "prueba": "P03",
+    "fecha_utc": "2026-11-09T01:28:19.739888+00:00",
+    "pika": "1.3.2",
+    "resultado": "OK",
+    "detalle": {
+      "codigo": 404,
+      "respuesta": "NOT_FOUND - no queue 'amq.gen-t3BKfsdYTtCr9ic2clh7hA' in vhost '/'",
+      "conexion_sigue_abierta": true,
+      "operaciones": "Queue.Declare(passive=True), Channel.Close(404), Channel.CloseOk"
+    }
+  }
+]

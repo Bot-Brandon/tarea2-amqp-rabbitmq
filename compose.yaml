@@ -1,0 +1,29 @@
+name: taller2-amqp
+services:
+  rabbitmq:
+    image: rabbitmq:4.4.0-management
+    hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: taller
+      RABBITMQ_DEFAULT_PASS: taller-local-2026
+    ports:
+      - "127.0.0.1:15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 5s
+      timeout: 10s
+      retries: 24
+      start_period: 20s
+  cliente:
+    build: ./cliente
+    environment:
+      AMQP_HOST: rabbitmq
+      AMQP_USER: taller
+      AMQP_PASSWORD: taller-local-2026
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - ./evidencias:/evidencias
+    cap_add: [NET_RAW]
+    profiles: [pruebas]

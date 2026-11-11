@@ -1,0 +1,4 @@
+prueba,fecha_hora,objetivo,accion_cliente,resultado_esperado,resultado_observado,captura,tramas_relevantes,log_cliente,log_servidor,imagen_anexo,interpretacion
+P01,2026-11-06T22:06:49-03:00,Publicar y obtener tres mensajes,Basic.Publish y Basic.Get,Contenido identico y cola vacia,OK: tres recibidos y cola 0,todas.pcap,20 25 30 36 40 44,todas-cliente.log,servidor.log,Pendiente,Publicaciones y confirmaciones observadas
+P02,2026-11-06T22:06:49-03:00,Reentrega tras rechazo,Basic.Nack requeue=True,Redelivered=True,OK: mismo cuerpo y marca verdadera,todas.pcap,81 84 85,todas-cliente.log,servidor.log,Pendiente,Rechazo con reencolado y confirmacion final
+P03,2026-11-06T22:06:49-03:00,Error por cola inexistente,Queue.Declare passive=True,Error de canal 404,OK: 404 con conexion abierta,todas.pcap,114 115 116 117 119,todas-cliente.log,servidor.log,Pendiente,Cierre de canal distinguible del cierre de conexion

@@ -1,0 +1,101 @@
+[
+  {
+    "archivo": "01_docker_saludable.png",
+    "origen": "codex-clipboard-d9c2c3f5-c77a-4cfd-a19b-8e6b61465d8f.png",
+    "dimensiones": [
+      1493,
+      164
+    ],
+    "sha256": "08142f41bf4282720e2be1785d6f9ec90446163f5e5e3b5bfd7f813feef2930b"
+  },
+  {
+    "archivo": "02_configuracion_compose.png",
+    "origen": "codex-clipboard-57457570-48bd-4ab4-8ae8-08e181d0697b.png",
+    "dimensiones": [
+      601,
+      595
+    ],
+    "sha256": "42771d6cd70161b131b26fd845f9780eea99310c64b42445be3d68bd7a88a9c5"
+  },
+  {
+    "archivo": "03_panel_rabbitmq.png",
+    "origen": "codex-clipboard-c03dec56-e28e-410f-af50-8128ffefec15.png",
+    "dimensiones": [
+      1915,
+      767
+    ],
+    "sha256": "abd98475da768cb6a70911f3c377af1d4353187cf90c7fddf342bbe5989ef0db"
+  },
+  {
+    "archivo": "04_terminal_P01.png",
+    "origen": "codex-clipboard-4d41452d-1c43-44d3-ae3b-bce205bf4f5a.png",
+    "dimensiones": [
+      1909,
+      331
+    ],
+    "sha256": "f890b1a9a45c084fc280948f46e1a6d95b9358fe6c7d0a98d06ed4a3e287530b"
+  },
+  {
+    "archivo": "05_terminal_P02.png",
+    "origen": "codex-clipboard-d2ee1417-7520-4036-ad71-5fc980b99525.png",
+    "dimensiones": [
+      1919,
+      303
+    ],
+    "sha256": "5e4af040e0337055fe19dae8954a648bbb618991d6c4001e6dea247dbc0a5042"
+  },
+  {
+    "archivo": "06_wireshark_general.png",
+    "origen": "codex-clipboard-b1cf6189-1c96-4217-98e4-41d123f31b75.png",
+    "dimensiones": [
+      1914,
+      1058
+    ],
+    "sha256": "d9efbe7f859deee7f04875fd8af63a40ba0bbf1260b14213065486a24afe77c6"
+  },
+  {
+    "archivo": "07_wireshark_P01.png",
+    "origen": "codex-clipboard-6d579aaf-4705-4b3d-b4af-502447dbf3e0.png",
+    "dimensiones": [
+      1918,
+      1079
+    ],
+    "sha256": "2c50d07b66bacdf9179b37babe88fccafb22ce0b4418c0302571ded29ca389c4"
+  },
+  {
+    "archivo": "08_wireshark_P02_lista.png",
+    "origen": "codex-clipboard-9e10b55b-2939-4f6f-9fe4-01aba6ea8873.png",
+    "dimensiones": [
+      1919,
+      272
+    ],
+    "sha256": "8c31d264b6f7765eea68fd182cefdc17db5d99cfe14adddc2362c5f068db77ab"
+  },
+  {
+    "archivo": "09_wireshark_requeue.png",
+    "origen": "codex-clipboard-9cc93c99-b142-4be7-ba36-9ba76880d4b2.png",
+    "dimensiones": [
+      1919,
+      1079
+    ],
+    "sha256": "af2380e384c0f01a39a72bede3270411083e23da37ccdc721c655fcf1a9de6c5"
+  },
+  {
+    "archivo": "10_wireshark_redelivered.png",
+    "origen": "codex-clipboard-572896e3-331d-4436-8742-009879d56645.png",
+    "dimensiones": [
+      1919,
+      1074
+    ],
+    "sha256": "14c0df1c35a738d67510be97196d8dd7d83273d275d209020a587609a2afbcba"
+  },
+  {
+    "archivo": "11_wireshark_error404.png",
+    "origen": "codex-clipboard-f0e13328-88c2-41a9-8ca5-f4a2c1b8103f.png",
+    "dimensiones": [
+      1919,
+      1079
+    ],
+    "sha256": "f978925cf3dd76e47adae1490545eec728f7c2964f51fd719776fca9407d80e5"
+  }
+]
